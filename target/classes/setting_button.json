@@ -1,0 +1,60 @@
+[
+{"class name":"jarvis.functions.smart.statusHdd.StatusHddButton",
+"confirm action button":false,
+"auto close":true},
+
+{
+"class name":"jarvis.functions.smart.TemperatureTrassirButton",
+"confirm action button":false,
+"auto close":false},
+
+{
+"class name":"jarvis.functions.mailMessage.MessageLicenseButton",
+"confirm action button":false,
+"auto close":false},
+
+{
+"class name":"jarvis.functions.ping.WindowPingIpButton",
+"confirm action button":false,
+"auto close":true},
+
+{
+"class name":"jarvis.functions.sshConnection.mainConnection.WindowSshVRButton",
+"confirm action button":false,
+"auto close":true},
+
+{
+"class name":"jarvis.functions.smart.InstallSmart",
+"confirm action button":false,
+"auto close":false},
+
+{
+"class name":"jarvis.functions.CloseProgram",
+"confirm action button":false,
+"auto close":false},
+
+{
+"class name":"jarvis.functions.vnc.connectWk.WindowConnectWKButton",
+"confirm action button":false,
+"auto close":true},
+
+{
+"class name":"jarvis.functions.rebootServer.RebootButton",
+"confirm action button":true,
+"auto close":false},
+
+{
+"class name":"jarvis.functions.processes.WindowProcessesButton",
+"confirm action button":false,
+"auto close":false},
+
+{
+"class name":"jarvis.functions.vnc.VncVRButton",
+"confirm action button":false,
+"auto close":false},
+
+{
+"class name":"jarvis.functions.ScriptTrassirHddButton",
+"confirm action button":true,
+"auto close":false}
+]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="213.0" prefWidth="118.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jarvis.functions.ping.PingController">
+   <children>
+      <Button fx:id="butPing" layoutY="2.0" mnemonicParsing="false" onAction="#pingAction" text="ping" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Button layoutX="80.0" layoutY="2.0" mnemonicParsing="false" onAction="#closeWindow" prefHeight="25.0" prefWidth="17.0" text="X" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <TextField fx:id="textIp1" layoutY="37.0" onAction="#addIp" prefHeight="25.0" prefWidth="106.0" promptText="100.222.222.222" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <ListView fx:id="listView" layoutY="62.0" prefHeight="151.0" prefWidth="118.0" />
+   </children>
+</AnchorPane>

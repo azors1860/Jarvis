@@ -1,0 +1,10 @@
+[
+  {
+    "command": "java -jar app_user/reboot_cam/run.jar ip_vr=[ip_vr]!uid_sdk=[uid_sdk=]",
+    "path img": "app_user/reboot_cam/img.png"
+  },
+  {
+    "command": "java -jar app_user/srl/run.jar [ip_vr]",
+    "path img": "app_user/srl/img.png"
+  }
+]

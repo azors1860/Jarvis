@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="271.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jarvis.functions.sshConnection.mainConnection.SshMainViewController">
+   <children>
+      <TextArea fx:id="showSshCommands" editable="false" layoutX="6.0" layoutY="7.0" prefHeight="200.0" prefWidth="586.0" wrapText="true" AnchorPane.bottomAnchor="64.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="6.0" AnchorPane.topAnchor="4.0" />
+      <TextArea fx:id="sendSshCommands" layoutX="7.0" layoutY="217.0" prefHeight="43.0" prefWidth="525.0" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="68.0" />
+      <Button fx:id="sendSshCommandsButton" layoutX="540.0" layoutY="217.0" mnemonicParsing="false" onAction="#sendSshCommandsButtonAction" prefHeight="43.0" prefWidth="52.0" text="OK" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="11.0" AnchorPane.rightAnchor="8.0" />
+      <Label fx:id="lableTop" layoutX="7.0" layoutY="-3.0" prefHeight="25.0" prefWidth="513.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="426.0" prefWidth="542.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jarvis.functions.smart.statusHdd.StatusHddController">
+    <children>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="426.0" prefWidth="536.0">
+            <children>
+                <Label layoutY="10.0" prefHeight="19.0" prefWidth="98.0" text="Device Model:" />
+                <Label layoutY="39.0" prefHeight="19.0" prefWidth="98.0" text="Serial Number:" />
+                <TextField fx:id="Model" editable="false" focusTraversable="false" layoutX="86.0" layoutY="10.0" prefHeight="8.0" prefWidth="149.0" >
+               <font>
+                  <Font size="9.0" />
+               </font></TextField>
+                <TextField fx:id="Number" editable="false" focusTraversable="false" layoutX="86.0" layoutY="39.0" prefHeight="8.0" prefWidth="149.0" >
+               <font>
+                  <Font size="9.0" />
+               </font></TextField>
+                <TextArea fx:id="textArea" editable="false" focusTraversable="false" layoutX="11.0" layoutY="65.0" prefHeight="347.0" prefWidth="522.0">
+                    <font>
+                        <Font size="10.0" />
+                    </font></TextArea>
+                <ComboBox fx:id="list" layoutX="244.0" layoutY="27.0" onHidden="#onHidden" prefWidth="150.0" />
+                <Label fx:id="statusText" layoutX="244.0" layoutY="10.0" prefHeight="19.0" prefWidth="278.0" text="Общий статус: ">
+                    <font>
+                        <Font size="10.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
